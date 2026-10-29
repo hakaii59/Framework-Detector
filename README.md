@@ -17,48 +17,18 @@ Built for **security researchers**, **pentesters**, and **bug bounty hunters** w
 
 ## Installation
 
-### Quick start
-
 ```bash
-git clone https://github.com/huugiapthanh/Framework-Detector.git
+git clone https://github.com/hakaii59/Framework-Detector.git
 cd Framework-Detector
 pip install -r requirements.txt
 ```
 
-### Install as CLI tool
-
-```bash
-pip install .
-```
-
-This installs the `fwd` command globally.
-
-### Using pip from GitHub
-
-```bash
-pip install git+https://github.com/huugiapthanh/Framework-Detector.git
-```
-
 ## Usage
-
-### As installed CLI tool
-
-```bash
-fwd https://example.com
-fwd https://example.com --no-probe
-fwd https://example.com -v --timeout 15
-```
-
-### As Python module
-
-```bash
-python -m framework_detector https://example.com
-```
-
-### Standalone script (no install needed)
 
 ```bash
 python detect.py https://example.com
+python detect.py https://example.com --no-probe
+python detect.py https://example.com -v --timeout 15
 ```
 
 ### Options
